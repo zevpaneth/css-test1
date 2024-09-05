@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    height:50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.title{
+    background-color: green;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+body{
+    background-color: #e8e3e3;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome, .scheduleWindow, .chekWindow{
+    background-color: white;
+    width: 90%;
+    height: max-content;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+footer{
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.schedule p{
+    display: flex;
+    margin: 5px;
+    width: 250px;
+    height: 70px;
+    border-radius: 5px;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #dad1d1;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+}
+#submit{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+.main #sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    right: 600px;
+    font-size: 25px;
+    color: green;
+}
+.chekWindow{
+       background-color: rgb(216, 216, 209); 
+}
+.chekWindow label, .chekWindow input{
+    margin: 5px;
+}
+#physical{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+}
+#tactical{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+}
+#tech{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+}
+#instructor{
+    left: 0;}
+
